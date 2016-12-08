@@ -1,23 +1,34 @@
 # README #
 
-## Usage
+## Setup
 1 PC and 1 Raspberry Pi join same network
 
 ### PC
 Set hostname as karaage
 
+Git clone
 ```sh
 $ git clone https://github.com/karaage0703/hendigi_camera
 $ cd hendigi_camera/server
 ```
 
-```python
+### Raspberry Pi
+Set hostname as hendigi
+
+Git clone
+```sh
+$ git clone https://github.com/karaage0703/hendigi_camera
+```
+
+## Usage
+### PC
+Execute following command:
+```sh
 $ python hendigi_server.py
 ```
 
-### hendigi camera
-Set hostname as hendigi
-
+### Raspberry Pi
+Execute following command:
 ```sh
 $ python hendigi_camera.py
 ```
