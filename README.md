@@ -21,6 +21,9 @@ $ git clone https://github.com/karaage0703/hendigi_camera
 ```
 
 ## Usage
+See following Japanese manual
+https://github.com/karaage0703/hendigi_camera/blob/master/demo_manual.pdf
+
 ### PC
 Execute following command:
 ```sh
